@@ -28,3 +28,15 @@ p {
 	font-family: 'redacted_scriptregular';
 }
 
+body {
+    background: url("../img/bg.png");
+    color:#fff;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color:#fff;
+}
+
+label {
+    color:#fff;
+}
