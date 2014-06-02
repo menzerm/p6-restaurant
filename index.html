@@ -14,7 +14,249 @@
   </head>
   
   <body>
+<!-- Top Nav -->
+   <div class="row">
+    <div class="large-12 columns">
 
+ 
+      <div class="row">
+        <div class="large-12 columns">
+ 
+          <nav class="top-bar" data-topbar>
+            <ul class="title-area">
+               
+              <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+            </ul>
+         
+            <section class="top-bar-section">
+               
+              <ul class="right">
+                <li class="divider"></li>
+                <li class="has-dropdown">
+                  <a href="#">Menu</a>
+                  <ul class="dropdown">
+                    <li><label>Prices</label></li>
+                    <li><a href="#">$1.50</a></li>
+                    <li><a href="#">$2.25</a></li>
+                    <li><a href="#">$2.75</a></li>
+                    <li><a href="#">$3.25</a></li>
+                    <li><a href="#">$3.75</a></li>
+                    <li><a href="#">$4.50</a></li>
+                    <li class="divider"></li>
+                    <li><label>Types</label></li>
+                    <li><a href="#">Raw</a></li>
+                    <li><a href="#">Vegetarian</a></li>
+                    <li><a href="#">Spicy</a></li>
+                  </ul>
+                </li>
+                <li class="divider"></li>
+                <li><a href="#">Location</a></li>
+                <li class="divider"></li>
+                <li class="has-dropdown">
+                  <a href="#">About</a>
+                  <ul class="dropdown">
+                    <li><a href="#">Revolving Sushi</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Hours</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </section>
+          </nav>
+           
+        </div>
+      </div>
+<!-- Masthead -->
+      <header class="row">
+      <div class="large-12 columns">
+        
+        <img src="img/background5.jpg" alt="">
+
+      </div>
+    </header>
+
+
+      <div class="row">
+ 
+        <div class="large-4 small-12 columns">
+<!-- Hours Contact -->
+        <div class="hide-for-small panel radius">
+            <h3>Contact</h3>
+            <h5 class="subheader">Phone
+            </h5>
+            <h6>(509)455-3900</h6>
+            <h5>Email</h5>
+            <h6>maruspokane@gmail.com</h6>
+            <h5>Address</h5>
+            <h6>River Park Square </br>
+            808 West Main Avenue Suite #105 </br>
+            Spokane, WA 99201</h6>
+          </div>
+ 
+          <div class="panel radius">
+            <h5>Hours</h5>
+            <ul>
+              <li>Monday-Thursday: 11:00-9:30</li>
+              <li>Friday-Saturday: 11:00-10:00</li>
+              <li>Sunday: 12:00-9:00</li>
+            </ul>
+          </div>
+        
+        </div>
+
+<!-- Location -->
+        <div class="large-8 small-12 columns">
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2687.2601692982275!2d-117.42377399999998!3d47.659941999999994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4100979c0cf5d029!2sSushi+Maru!5e0!3m2!1sen!2sus!4v1401600524460" width="600" height="300" frameborder="0" style="border:0"></iframe>
+
+          <div class="hide-for-small-only">
+
+          <h3>Revolving Sushi</h3>
+
+          <p>Also called sushi-go-round, mainly by foreigners living in Japan, is the popular English translation for Japanese fast-food sushi. In Australia, it is also known as sushi-train (as the sushi goes around a track on a train rather than a conveyor belt. In South Korea, conveyor belt sushi has become popular and is known as “revolving sushi”. Kaiten-sushi is a sushi restaurant where the plates with the sushi are placed on a rotating conveyor belt that winds through the restaurant and moves past every table and counter seat. Customers may place special orders but most simply pick their selections from a steady stream of fresh sushi moving along the conveyor belt.  The final bill is based on the number and color of plates of the consumed sushi.</p>
+        </div>
+      </div>
+
+<!-- Menu -->
+       <div class="row">
+
+        <div id="placeHolder"></div>
+
+        <div class="large-12 columns" id="container">
+            
+            <h1>Menu</h1>
+
+          <!-- Menu options -->
+          <div>
+          <label for="selections">Menu Options</label><br>
+          <select name="selections" id="selections">
+            <optgroup label="Types">
+              <option>All</option>
+              <option>Raw</option>
+              <option>Spicy</option>
+              <option>Vegetarian</option>
+            </optgroup>
+            <optgroup label="Price">
+              <option>$1.50</option>
+              <option>$2.25</option>
+              <option>$2.75</option>      
+              <option>$3.25</option>
+              <option>$3.75</option>
+              <option>$4.50</option>
+             </optgroup>
+          </select>
+          </div>
+          <!-- End menu options -->
+
+            <div class="large-3 medium-4 small-6 columns" data-type="vegetarian, all" data-price="$1.50">
+              <img src="img/cucumber_small.jpg">
+ 
+              <div class="panel">
+                <h5>Cucumber Roll</h5>
+              </div>
+            </div>
+ 
+            <div class="large-3 medium-4 small-6 columns" data-type="all" data-price="$2.25">
+              <img src="img/nigiri_small.jpg">
+ 
+              <div class="panel">
+                <h5>Albacore Nigiri</h5>
+              </div>
+            </div>
+ 
+            <div class="large-3 medium-4 small-6 columns" data-type="spicy, raw, all" data-price="$2.75">
+              <img src="img/spicytuna_small.jpg">
+ 
+              <div class="panel">
+                <h5>Spicy Tuna Roll</h5>
+              </div>
+            </div>
+ 
+            <div class="large-3 medium-4 small-6 columns">
+              <img src="img/orangeroll_small.jpg">
+ 
+              <div class="panel">
+                <h5>Orange Roll</h5>
+              </div>
+            </div>
+ 
+            <div class="large-3 medium-4 small-6 columns">
+              <img src="img/thunder_small.jpg">
+ 
+              <div class="panel">
+                <h5>Thunder Roll</h5>
+              </div>
+            </div>
+
+             <div class="large-3 medium-4 small-6 columns">
+              <img src="img/spring-rolls_small.jpg">
+ 
+              <div class="panel">
+                <h5>Spring Rolls</h5>
+              </div>
+            </div>
+
+             <div class="large-3 medium-4 small-6 columns">
+              <img src="img/tuna-poki_small.jpg">
+ 
+              <div class="panel">
+                <h5>Tuna Poki Salad</h5>
+              </div>
+            </div>
+            
+            <div class="large-3 medium-4 small-6 columns">
+              <img src="img/playboy_small.jpg">
+ 
+              <div class="panel">
+                <h5>Playboy</h5>
+              </div>
+            </div>
+
+             <div class="large-3 medium-4 small-6 columns">
+              <img src="img/sashimi_small.jpg">
+ 
+              <div class="panel">
+                <h5>Sashimi Roll</h5>
+              </div>
+            </div>
+            
+            <div class="large-3 medium-4 small-6 columns">
+              <img src="img/dragon_small.jpg">
+ 
+              <div class="panel">
+                <h5>Dragon Roll</h5>
+              </div>
+            </div>
+
+             <div class="large-3 medium-4 small-6 columns">
+              <img src="img/rainbow_small.jpg">
+ 
+              <div class="panel">
+                <h5>Rainbow Roll</h5>
+              </div>
+            </div>
+
+            <div class="large-3 medium-4 small-6 columns">
+              <img src="img/inari_small.jpg">
+ 
+              <div class="panel">
+                <h5>Inari</h5>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+   
+
+<!-- footer -->
+      <footer class="row">
+        <div class="large-12 columns"><hr/>
+          <div class="row">
+              <p>© Sushi Maru</p>
+      </footer>   
+ 
+    </div>
+  </div>
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
