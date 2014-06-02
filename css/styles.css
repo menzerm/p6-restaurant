@@ -45,6 +45,34 @@ label {
     color:#fff;
 }
 
+.mix.category-1:after {
+    border-right-color:yellow;
+}
+.mix.category-2:after {
+    border-right-color:lightblue;
+}
+.mix.category-3:after {
+    border-right-color:red;
+}
+.mix.category-4:after {
+    border-right-color:purple;
+}
+.mix.category-5:after {
+    border-right-color:darkblue;
+}
+.mix.category-6:after {
+    border-right-color:green;
+}
+.mix:after {
+    content: '';
+    position: absolute;
+    border: 20px solid transparent;
+    border-right-color: white;
+    top: -20px;
+    left: -20px;
+    -webkit-transform: rotate(45deg);
+}
+
 #Container .mix{
-    display: none;
+    display:;
 }
